@@ -26,5 +26,5 @@ def main():
         if answer == '1':
             xml_generator.create(abonent_first_name, abonent_name, abonent_tel)
 
-    elif select == 6:
+    elif select == 0:
         sys.exit()
